@@ -1,6 +1,7 @@
 ---
 title: CHurros | JP | BGP Premium | 测试报告
 cover: https://i.psray.net/i/2024/01/04/6595da0273bb3.jpg
+tags: [Japan]
 ---
 ## 🖥️ 本次测试对象
 
@@ -50,7 +51,7 @@ ASN: AS38136 Akari Networks
 商家的 Telegram 群组和频道
 
 Telegram Channel: https://t.me/churros789
-Telegram Channel: https://t.me/churroscloud
+Telegram Group: https://t.me/churroscloud
 
 ## 📊 性能测试
 
@@ -80,11 +81,6 @@ $ wget -qO- bench.sh | bash
  Organization       : AS38136 Akari Networks
  Location           : Tokyo / JP
  Region             : Tokyo
-----------------------------------------------------------------------
- I/O Speed(1st run) : 1.2 GB/s
- I/O Speed(2nd run) : 1.3 GB/s
- I/O Speed(3rd run) : 1.3 GB/s
- I/O Speed(average) : 1297.1 MB/s
 ----------------------------------------------------------------------
 ```
 
