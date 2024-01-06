@@ -30,7 +30,7 @@ HK Dedicated Server 香港独立服务器
 - IPv4: 1IPv4 address
 - Price: $50.00 USD (优惠后 $30 USD)
 
-{% btn 'https://billing.mejiro.io',购买,far fa-hand-point-right,purple block larger %}
+{% btn 'https://billing.mejiro.io/aff.php?aff=6',购买,far fa-hand-point-right,purple block larger %}
 
 ## 🏪 商家信息
 
