@@ -551,7 +551,7 @@ Idle Latency:     4.67 ms   (jitter: 0.47ms, low: 4.08ms, high: 5.42ms)
       Upload:   509.59 Mbps (data used: 773.3 MB)                                                   
                   4.10 ms   (jitter: 0.28ms, low: 3.72ms, high: 5.76ms)
  Packet Loss:     0.0%
-  Result URL: https://www.speedtest.net/result/c/ffe74d20-457b-4a0e-badb-4c304b1000c8
+ Result URL: https://www.speedtest.net/result/c/ffe74d20-457b-4a0e-badb-4c304b1000c8
 ```
 
 
