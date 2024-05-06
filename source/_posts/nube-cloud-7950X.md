@@ -3,6 +3,7 @@ title: Nube Cloud | HK | 7950X Dedicated Server | 测试报告
 cover: https://i.psray.net/i/2024/04/21/66249cf468b5a.jpg
 date: 2024-04-21
 tags: [HongKong, Dedicated Server, 7950X]
+description: Nube Cloud，香港商家，原先也叫 KuaiCheDao，成立于 2017 年前。本次测试的是 HK AMD Ryzen 9 7950X Dedicated Server 独立服务器产品，包含了硬件性能，网络等测试。
 ---
 ## 🏪 商家信息
 

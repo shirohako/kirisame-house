@@ -3,6 +3,7 @@ title: CHurros | JP | BGP Premium | 测试报告
 cover: https://i.psray.net/i/2024/01/04/6595da0273bb3.jpg
 date: 2024-01-04
 tags: [Japan]
+description: CHurros，国人商家，成立于 2023 年，有香港、日本、台湾、新加坡等多地 BGP 产品。本次测试的是 JPBGP Premium 产品，内置主流媒体解锁，包含大陆优化。
 ---
 ## 🖥️ 本次测试对象
 

@@ -3,6 +3,7 @@ title: MEJIRO NETWORK | HK | SD10 | 测试报告
 cover: https://i.psray.net/i/2024/01/06/6599435b43998.jpg
 date: 2024-01-06
 tags: [HongKong]
+description: MEJIRO NETWORK，国人商家，成立于 2023 年，目前在出售香港独立服务器。本次测试的是 HK Dedicated Server SD10 产品，包含了硬件和网络线路的测试报告。
 ---
 ## 🖥️ 本次测试对象
 

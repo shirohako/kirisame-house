@@ -3,6 +3,7 @@ title: 彼得巧 (PQS) | HK | CMHK-500M-VDS-M | 测试报告
 cover: https://i.psray.net/i/2024/01/08/659bd6280db27.jpg
 date: 2024-01-08
 tags: [HongKong]
+description: 彼得巧 (PITTQIAO) (PQS)，台湾商家，成立于 2019 年前。老牌商家，工单处理速度快，口碑不错。本次测试的是 CMHK VPS 产品，包含了硬件性能，网络等测试。
 ---
 ## 🖥️ 本次测试对象
 
