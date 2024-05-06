@@ -16,7 +16,7 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
+  Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -951,7 +951,7 @@ CDN:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
-    busuanzi: https://cdn.bootcdn.net/ajax/libs/busuanzi/2.3.0/bsz.pure.mini.js
+    # busuanzi: https://cdn.bootcdn.net/ajax/libs/busuanzi/2.3.0/bsz.pure.mini.js
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:
