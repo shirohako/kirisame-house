@@ -1,5 +1,5 @@
 ---
-title: MEJIRO NETWORK | HK | SD10 | 测试报告
+title: MEJIRO NETWORK | HK | E5-2650L 独立服务器 | $30 USD | 32GB内存 | 200Mbps | 480GB SSD | 测试报告
 cover: https://i.psray.net/i/2024/01/06/6599435b43998.jpg
 date: 2024-01-06
 tags: [HongKong]

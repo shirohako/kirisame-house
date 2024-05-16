@@ -1,5 +1,5 @@
 ---
-title: CHurros | JP | BGP Premium | 测试报告
+title: CHurros | JP | BGP Premium VPS | ￥14.00~ CNY | Akari Networks | 大陆优化 | 测试报告
 cover: https://i.psray.net/i/2024/01/04/6595da0273bb3.jpg
 date: 2024-01-04
 tags: [Japan]
@@ -29,7 +29,7 @@ ASN: AS38136 Akari Networks
 - Network: IIJ, BBTEC, GSL, JPIX, JPNAP, BBIX, EIE，优化大陆方向连接
 - Bandwidth: 500 Mbit/s guaranteed speed. Peak Bandwidth 10Gbps
 - Other: Protection against DDoS-attacks
-- Price: ￥CNY 14.00+
+- Price: ￥CNY 14.00~
 
 {% btn 'https://churros.cloud/aff.php?aff=71',购买,far fa-hand-point-right,purple block larger %}
 

@@ -1,5 +1,5 @@
 ---
-title: Nube Cloud | HK | 7950X Dedicated Server | 测试报告
+title: Nube Cloud | HK | 7950X 独立服务器 | $278.00 USD | 128GB DDR5 | 4TB SSD  | 测试报告
 cover: https://i.psray.net/i/2024/04/21/66249cf468b5a.jpg
 date: 2024-04-21
 tags: [HongKong, Dedicated Server, 7950X]

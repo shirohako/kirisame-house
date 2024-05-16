@@ -1,5 +1,5 @@
 ---
-title: Crastar | HK | HKBGP CMI VPS | 测试报告
+title: Crastar | HK | CMI VPS | $49 USD | AMD Milan 4核心 | 8G内存 | 10TB单向流量 | 测试报告
 cover: https://i.psray.net/i/2024/04/21/6624f341ec916.jpg
 date: 2024-04-20
 tags: [HongKong]
