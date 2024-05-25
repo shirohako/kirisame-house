@@ -175,7 +175,7 @@ aes-256-gcm     379556.59k   753578.89k  1924060.38k  2624909.99k  3306885.74k  
 **chacha20-poly1305**
 
 ```
-root@HK-04:~# openssl speed -evp chacha20-poly1305
+$ openssl speed -evp chacha20-poly1305
 Doing chacha20-poly1305 for 3s on 16 size blocks: 43753629 chacha20-poly1305's in 3.00s
 Doing chacha20-poly1305 for 3s on 64 size blocks: 21988399 chacha20-poly1305's in 3.00s
 Doing chacha20-poly1305 for 3s on 256 size blocks: 11152588 chacha20-poly1305's in 3.00s
