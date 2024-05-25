@@ -246,7 +246,6 @@ $ bash <(curl -L -s check.unlock.media) -M 4
 --------------------------------
  ** 您的网络为: HGC Broadband (210.0.*.*) 
 
-
 ============[ Multination ]============
  Dazn:					Yes (Region: HK)
  Disney+:				Yes (Region: HK)
@@ -309,12 +308,12 @@ Speedtest By Bench.sh (Teddysun)
 
 ### Local Speedtest (港内表现)
 
+Speedtest by Ookla
+
 💡 **CMHK Broadband**
 
 ```
 $ speedtest -s 37639
-
-   Speedtest by Ookla
 
       Server: CMHK Broadband - Hong Kong (id: 37639)
          ISP: HGC Broadband
@@ -332,8 +331,6 @@ Idle Latency:     2.47 ms   (jitter: 0.06ms, low: 2.40ms, high: 2.54ms)
 ```
 $ speedtest -s 33414
 
-   Speedtest by Ookla
-
       Server: Hutchison HK - Hong Kong (id: 33414)
          ISP: HGC Broadband
 Idle Latency:     1.41 ms   (jitter: 0.04ms, low: 1.38ms, high: 1.45ms)
@@ -350,8 +347,6 @@ Idle Latency:     1.41 ms   (jitter: 0.04ms, low: 1.38ms, high: 1.45ms)
 
 ```
 $ speedtest -s 63143
-
-   Speedtest by Ookla
 
       Server: Netvigator - Hong Kong (id: 63143)
          ISP: HGC Broadband
