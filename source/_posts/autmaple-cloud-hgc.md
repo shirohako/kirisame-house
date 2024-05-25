@@ -26,7 +26,7 @@ description: 秋枫云 (Autmaple cloud)国内商家，产品线有香港HGC和�
 - **Traffic**: 1TB 双向 (+1TB ￥7.00CNY)
 - **Network**: HGC Global Communications Limited
 - **Bandwidth**: 10Gbps Shared
-- **IPv4**: 1IPV4 (+1GB ￥50.00CNY)
+- **IP**: 1IPv4 + 1IPv6 (+1IPv4 ￥50.00CNY) 
 - **Location**: 🇭🇰 Hong Kong Kowloon City
 - **Price**: ￥73.00CNY+ / mo
 
@@ -35,16 +35,28 @@ description: 秋枫云 (Autmaple cloud)国内商家，产品线有香港HGC和�
 ### 🛜 网络信息
 
 **Lite 产品线路由** (商家标注)
-- 電信去程TATA 回程4837
-- 聯通去程JINX 回程CUG/Cogent/NTT
-- 移動去程PCCWG 回程PCCWG
 
-{% note purple 'fas fa-fan' simple %}
+
+{% note pink 'fas fa-wifi' flat %}
+電信去程 TATA 回程 4837
+聯通去程 JINX 回程 CUG/Cogent/NTT
+移動去程 PCCWG 回程 PCCWG
+{% endnote %}
+
+
+{% note blue 'fas fa-quote-right' flat %}
+安装系统的时候是可选IPv6
+配置越高，VPS权重越高
+移动为 PCCWG + Lumen 默认规则只有部分地区 Lumen
+带宽版可PM老板切 Lumen 回程
+{% endnote %}
+
+{% note green 'fas fa-tenge' flat %}
 
 **Test IP**: 210.0.158.*
 **Looking Glass**: N/A
 
-**ASN**: **AS9304**
+**ASN**: **AS137897**
 **ASN Name**: **PAN-LIAN TECHNOLOGY CO., LIMITED**
 
 **Country of Origin**: 🇭🇰 Hong Kong
@@ -94,7 +106,7 @@ Telegram Group: https://t.me/+tqsGN2025gthYzEx
  Kernel             : 5.4.0-176-generic
  TCP CC             : cubic
  Virtualization     : KVM
- IPv4/IPv6          : ✓ Online / ✗ Offline
+ IPv4/IPv6          : ✓ Online / ✓ Online
  Organization       : AS137897 PAN-LIAN TECHNOLOGY CO., LIMITED
  Location           : Hong Kong / HK
  Region             : Hong Kong
@@ -133,10 +145,10 @@ Total      | 2.12 GB/s     (4.1k) | 2.36 GB/s     (2.3k)
 ```
 -> Disk Performance Test (Using FIO, Direct mode, 32 IO-Depth)
 
-Write Test (4K-Block):		186.57 MB/s (47761 IOPS)
-Read  Test (4K-Block): 		375.94 MB/s (96240 IOPS)
-Write Test (128K-Block):	1136.36 MB/s (9090 IOPS)
-Read  Test (128K-Block):       2702.70 MB/s (21621 IOPS)
+Write Test (4K-Block):       186.57 MB/s (47761 IOPS)
+Read  Test (4K-Block):       375.94 MB/s (96240 IOPS)
+Write Test (128K-Block):     1136.36 MB/s (9090 IOPS)
+Read  Test (128K-Block):     2702.70 MB/s (21621 IOPS)
 ```
 
 ### 🕒 加密速度测试 (Encryption Performance)
@@ -314,7 +326,6 @@ Speedtest by Ookla
 
 ```
 $ speedtest -s 37639
-
       Server: CMHK Broadband - Hong Kong (id: 37639)
          ISP: HGC Broadband
 Idle Latency:     2.47 ms   (jitter: 0.06ms, low: 2.40ms, high: 2.54ms)
@@ -330,7 +341,6 @@ Idle Latency:     2.47 ms   (jitter: 0.06ms, low: 2.40ms, high: 2.54ms)
 
 ```
 $ speedtest -s 33414
-
       Server: Hutchison HK - Hong Kong (id: 33414)
          ISP: HGC Broadband
 Idle Latency:     1.41 ms   (jitter: 0.04ms, low: 1.38ms, high: 1.45ms)
@@ -347,7 +357,6 @@ Idle Latency:     1.41 ms   (jitter: 0.04ms, low: 1.38ms, high: 1.45ms)
 
 ```
 $ speedtest -s 63143
-
       Server: Netvigator - Hong Kong (id: 63143)
          ISP: HGC Broadband
 Idle Latency:     1.26 ms   (jitter: 0.02ms, low: 1.22ms, high: 1.27ms)
