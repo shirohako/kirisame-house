@@ -12,7 +12,7 @@ description: 秋枫云 (Autmaple cloud)国内商家，产品线有香港HGC和�
 另外还有Akari的新加坡VPS产品、Kirino美国产品等
 本次是香港HGC静态A区的VPS测试报告
 
-官网：[https://autmaplecloud.com](https://autmaplecloud.com/aff.php?aff=27)
+官网：[https://autmaplecloud.com](https://autmaplecloud.com/aff.php?aff=3)
 
 ### 🖥️ 本次测试机配置
 
@@ -30,7 +30,7 @@ description: 秋枫云 (Autmaple cloud)国内商家，产品线有香港HGC和�
 - **Location**: 🇭🇰 Hong Kong Kowloon City
 - **Price**: ￥73.00CNY+ / mo
 
-{% btn 'https://autmaplecloud.com/aff.php?aff=27',购买,far fa-hand-point-right,purple block larger %}
+{% btn 'https://autmaplecloud.com/aff.php?aff=3',购买,far fa-hand-point-right,purple block larger %}
 
 ### 🛜 网络信息
 
