@@ -5,6 +5,9 @@ date: 2024-04-20
 tags: [HongKong]
 description: Crastar，国人商家，成立于 2020 年，目前在出售香港、大陆的 VPS 产品。另外还有 IPLC 专线，深港、沪日、广港等。本次测试的是 HKBGP-CMI Metered 产品。
 ---
+
+> 文章中的测试产品，目前已经停止贩卖
+
 ## 🏪 商家信息
 
 **Crastar** 
