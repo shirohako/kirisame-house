@@ -7,6 +7,7 @@
 git clone https://github.com/shirohako/kirisame-house/
 cd kirisame-house
 git submodule update --init --recursive
+npm i
 ```
 
 
