@@ -6,9 +6,9 @@ tags: [UK, Coventry, London]
 description: AllHost 最近发来 Offer，多款 AMD Ryzen 7900 NVMe VPS 参与促销，年付提供 55% 折扣
 ---
 
-## 🖥️ 简介
-
 AllHost 最近发来 Offer，多款 AMD Ryzen 7900 NVMe VPS 参与促销，年付提供 55% 折扣。
+
+## 🖥️ 简介
 
 AllHost 自 2021 年起为合法注册公司，从未参与任何季节性低价主机促销活动（Never summer-hosted）
 
