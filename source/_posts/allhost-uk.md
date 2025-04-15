@@ -1,8 +1,8 @@
 ---
 title: AllHost | UK | Ryzen 7900 VPS | 测试报告
-cover: https://i.psray.net/i/2024/01/08/659bd6280db27.jpg
+cover: https://i.psray.net/i/2025/04/15/67fe52a6c847f.jpg
 date: 2025-04-15
-tags: [HongKong]
+tags: [UK, Coventry, London]
 description: AllHost 最近发来 Offer，多款 AMD Ryzen 7900 NVMe VPS 参与促销，年付提供 55% 折扣
 ---
 
@@ -212,29 +212,28 @@ Telegram Channel: N/A
 
 ---------------------fio读写测试--yabs----------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)
-  ------   | ---            ----  | ----           ---- 
+  ------   | ---            ----  | ----           ----
 Read       | 184.21 MB/s  (46.0k) | 2.14 GB/s    (33.5k)
 Write      | 184.70 MB/s  (46.1k) | 2.15 GB/s    (33.7k)
 Total      | 368.92 MB/s  (92.2k) | 4.30 GB/s    (67.2k)
-           |                      |                     
+           |                      |
 Block Size | 512k          (IOPS) | 1m            (IOPS)
-  ------   | ---            ----  | ----           ---- 
+  ------   | ---            ----  | ----           ----
 Read       | 2.03 GB/s     (3.9k) | 2.00 GB/s     (1.9k)
 Write      | 2.14 GB/s     (4.1k) | 2.14 GB/s     (2.0k)
 Total      | 4.18 GB/s     (8.1k) | 4.15 GB/s     (4.0k)
 ```
 
-
-### IP质量检测
+### IP 质量检测
 
 使用综合测试脚本：oneclickvirt/securityCheck
 
 ```securitycheck
 以下为各数据库编号，输出结果后将自带数据库来源对应的编号
-ipinfo       [0] | scamalytics    [1] | virustotal     [2] 
-abuseipdb    [3] | ip2location    [4] | ip-api         [5] 
+ipinfo       [0] | scamalytics    [1] | virustotal     [2]
+abuseipdb    [3] | ip2location    [4] | ip-api         [5]
 ipwhois      [6] | ipregistry     [7] | ipdata         [8]
-db-ip        [9] | ipapiis        [A] | ipapicom       [B] 
+db-ip        [9] | ipapiis        [A] | ipapicom       [B]
 bigdatacloud [C] | cheervision    [D] | ipqualityscore [E]
 
 IPV4:
@@ -461,3 +460,6 @@ $ bash <(curl -L -s check.unlock.media)
  Amediateka:				No
 =======================================
 ```
+
+> **Cover Illustration**: https://www.pixiv.net/artworks/115024597
+> **Artist**: 亜桜まる
