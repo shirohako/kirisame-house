@@ -8,7 +8,7 @@ subtitle: 'Casket of Star'
 description: '普通の魔法使い'
 keywords:
 author: ame
-language: zh-Hans
+language: zh-cn
 timezone: Asia/Tokyo
 
 # URL
@@ -43,7 +43,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
+syntax_highlighter: prismjs
 highlight:
   line_number: true
   auto_detect: false
@@ -51,7 +51,7 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
-  preprocess: true
+  preprocess: false
   line_number: true
   tab_replace: ''
 

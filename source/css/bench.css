@@ -1,0 +1,48 @@
+.token.region-no {
+  color: #f44336;
+  font-weight: bold;
+}
+.token.region-risky {
+  color: #ff9800;
+  font-weight: bold;
+}
+.token.region-yes {
+  color: #4caf50;
+  font-weight: bold;
+}
+.token.section-header {
+  color: #19baba; /* 蓝色 */
+  font-weight: bold;
+}
+
+.token.section-title {
+  color: #ffeb3b;
+  font-weight: bold;
+  background-color: #333;
+}
+
+
+
+.token.bench-value {
+  color: #00bcd4; /* Cyan */
+}
+
+.token.bench-mbps {
+  color: #4caf50; /* Green */
+  font-weight: bold;
+}
+
+.token.bench-ms {
+  color: #2196f3; /* Blue */
+  font-weight: bold;
+}
+
+.token.bench-bandwidth {
+  color: #2196f3; /* 蓝色 */
+  font-weight: bold;
+}
+
+.token.bench-score {
+  color: #00bcd4; /* 青色 */
+  font-weight: bold;
+}

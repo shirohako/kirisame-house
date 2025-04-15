@@ -22,12 +22,20 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
-highlight_copy: true # copy button
-highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: 1600 # unit: px
-code_word_wrap: false
+code_blocks:
+  # Code block theme: darker / pale night / light / ocean / false
+  theme: darker 
+  macStyle: false
+  # Code block height limit (unit: px)
+  height_limit: false
+  word_wrap: false
+
+  # Toolbar
+  copy: true
+  language: true
+  # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  shrink: false
+  fullpage: false
 
 # Social Settings (社交圖標設置)
 # formal:
@@ -40,7 +48,7 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /favicon.png
 
 # Avatar (頭像)
 avatar:
@@ -730,22 +738,23 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size:
-  code-font-size:
-  font-family:
-  code-font-family:
+  global_font_size: 16px
+  code_font_size:
+  font_family:
+  code_font_family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei' , 'Microsoft JhengHei', monospace , sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
   font_link:
-  font-family:
+  font_family:
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
-  icon: # the unicode value of Font Awesome icon, such as '\3423'
-  icon-top:
+  # The unicode value of Font Awesome icon, such as '\3423'
+  icon:
+  icon_top:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
@@ -917,7 +926,9 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <script defer src="https://akari.abyss.moe/hotaru" data-website-id="876cf490-d6f6-460a-a312-9ef9119f966b"></script>
+    - <link rel="stylesheet" href="/css/bench.css">
   bottom:
+    - <script src="/js/bench.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
