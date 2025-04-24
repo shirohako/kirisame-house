@@ -481,5 +481,5 @@ $ bash <(curl -L -s check.unlock.media)
 =======================================
 ```
 
-> **Cover Illustration**: https://www.pixiv.net/artworks/115024597
+> **Cover Illustration**: https://www.pixiv.net/artworks/115211488
 > **Artist**: 亜桜まる
