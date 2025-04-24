@@ -1,5 +1,5 @@
 ---
-title:  ISIF Cloud | Singapore | 测试报告
+title: 🇸🇬 ISIF Cloud | Singapore | 测试报告
 cover: https://i.psray.net/i/2025/04/25/680a769ac72c4.jpg
 date: 2025-04-25
 tags: [SG , ISIF]
@@ -8,7 +8,7 @@ description: ISIF Cloud 提供了本次测试的机器
 
 ## 🖥️ 简介
 
-ISIF Cloud 在 TG 频道发布了促销，上线了新的面向大陆优化的新加坡服务器。
+ISIF Cloud 在 TG 频道发布了促销，上线了新的面向大陆优化的 🇸🇬 新加坡 服务器。
 另外有售香港(大陆优化)和日本地区的VPS产品。
 
 ### 💻 订购
@@ -23,7 +23,7 @@ SG.SGP-B.1C0G-CO
 - Traffic: 1000GB
 - Bandwidth: 1000Mbps
 - IPv4: 1 IPv4 + 256 IPv6/64
-- Location:  Singapore
+- Location:  🇸🇬 Singapore
 - Price: €4.8 month / €36 per year
 
 {% btn 'https://cloud.isif.net/login?affiliation_code=kirisame',购买,far fa-hand-point-right,purple block larger %}
@@ -36,7 +36,7 @@ SG.SGP-B.1C1G-CO
 - Traffic: 20000 GB
 - Bandwidth: 2500Mbps
 - IPv4: 1 IPv4 + 256 IPv6/64
-- Location:  Singapore
+- Location:  🇸🇬 Singapore
 - Price: €10 month / €60 per year
 
 
@@ -50,7 +50,7 @@ SG.SGP-B.2C2G-CO
 - Traffic: 5TB
 - Bandwidth: 5000Mbps
 - IPv4: 1 IPv4 + 256 IPv6/64
-- Location:  Singapore
+- Location:  🇸🇬 Singapore
 - Price: €20 month / €120 per year
 
 {% btn 'https://cloud.isif.net/login?affiliation_code=kirisame',购买,far fa-hand-point-right,purple block larger %}
@@ -64,7 +64,7 @@ SG.SGP-B.4C4G-CO
 - Traffic: 10TB
 - Bandwidth: 10000Mbps
 - IPv4: 1 IPv4 + 256 IPv6/64
-- Location:  Singapore
+- Location:  🇸🇬 Singapore
 - Price: €40 month / €240 per year
 
 
