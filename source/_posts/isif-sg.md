@@ -124,9 +124,9 @@ Telegram Channel: https://t.me/isifchannel
  CPU Cache          : 512 KB
  AES-NI             : ✓ Enabled
  VM-x/AMD-V         : ✓ Enabled
- Total Disk         : 19.6 GB (1.8 GB Used)
- Total Mem          : 711.1 MB (208.3 MB Used)
- System uptime      : 10 days, 18 hour 27 min
+ Total Disk         : 19.6 GB (2.0 GB Used)
+ Total Mem          : 711.1 MB (195.9 MB Used)
+ System uptime      : 11 days, 1 hour 18 min
  Load average       : 0.00, 0.00, 0.00
  OS                 : Debian GNU/Linux 12
  Arch               : x86_64 (64 Bit)
@@ -138,21 +138,19 @@ Telegram Channel: https://t.me/isifchannel
  Location           : Singapore / SG
  Region             : Singapore
 ----------------------------------------------------------------------
- I/O Speed(1st run) : 494 MB/s
- I/O Speed(2nd run) : 467 MB/s
- I/O Speed(3rd run) : 472 MB/s
- I/O Speed(average) : 477.7 MB/s
+ I/O Speed(1st run) : 501 MB/s
+ I/O Speed(2nd run) : 471 MB/s
+ I/O Speed(3rd run) : 439 MB/s
+ I/O Speed(average) : 470.3 MB/s
 ----------------------------------------------------------------------
  Node Name        Upload Speed      Download Speed      Latency     
- Speedtest.net    1046.10 Mbps      993.56 Mbps         1.24 ms     
- Paris, FR        718.95 Mbps       543.00 Mbps         154.64 ms   
- Amsterdam, NL    500.41 Mbps       1001.63 Mbps        163.02 ms   
- Hong Kong, CN    999.13 Mbps       696.78 Mbps         46.25 ms    
- Singapore, SG    1047.00 Mbps      1009.66 Mbps        1.39 ms     
- Tokyo, JP        711.01 Mbps       727.90 Mbps         123.86 ms   
-----------------------------------------------------------------------
- Finished in        : 2 min 40 sec
- Timestamp          : 2025-04-24 14:25:34 UTC
+ Speedtest.net    1046.59 Mbps      999.09 Mbps         1.27 ms     
+ Paris, FR        735.41 Mbps       536.38 Mbps         154.50 ms   
+ Amsterdam, NL    506.98 Mbps       985.53 Mbps         163.31 ms   
+ Shanghai, CN     963.49 Mbps       669.17 Mbps         62.94 ms    
+ Hong Kong, CN    985.60 Mbps       995.95 Mbps         32.45 ms    
+ Singapore, SG    1047.14 Mbps      999.06 Mbps         1.55 ms     
+ Tokyo, JP        868.00 Mbps       722.85 Mbps         81.81 ms    
 ----------------------------------------------------------------------
 ```
 
@@ -162,17 +160,16 @@ Telegram Channel: https://t.me/isifchannel
 
 ```ecshardware
 --------------------------------CPU测试-通过sysbench测试--------------------------------
-1 线程测试(单核)得分:    785.59
-8 线程测试(多核)得分:   5541.81
+1 线程测试(单核)得分:   3444.87
 --------------------------------内存测试-通过sysbench测试---------------------------------
-单线程顺序写速度: 7950.27 MB/s  (8.34K IOPS, 5s)
-单线程顺序读速度: 16249.30 MB/s (17.04K IOPS, 5s)
+单线程顺序写速度: 24377.48 MB/s(25.56K IOPS, 5s)
+单线程顺序读速度: 40860.10 MB/s(42.84K IOPS, 5s)
 -----------------------------------硬盘测试-通过fio测试-----------------------------------
 测试路径      块大小   读测试(IOPS)            写测试(IOPS)            总和(IOPS)
-/root         4k       155.58 MB/s(38.9k)      155.99 MB/s(39.0k)      311.56 MB/s(77.9k)      
-/root         64k      873.70 MB/s(13.7k)      878.30 MB/s(13.7k)      1.75 GB/s(27.4k)        
-/root         512k     1.25 GB/s(2443)         1.32 GB/s(2573)         2.57 GB/s(5016)         
-/root         1m       1.38 GB/s(1345)         1.47 GB/s(1435)         2.85 GB/s(2780)         
+/root         4k       12.02 MB/s(3004)        12.02 MB/s(3005)        24.04 MB/s(6009)        
+/root         64k      192.71 MB/s(3011)       193.72 MB/s(3026)       386.43 MB/s(6037)       
+/root         512k     499.60 MB/s(975)        526.15 MB/s(1027)       1.03 GB/s(2002)         
+/root         1m       492.02 MB/s(480)        524.78 MB/s(512)        1.02 GB/s(992)              
 ```
 
 ### IP 质量检测
@@ -187,28 +184,28 @@ ipapiis数据库 [A] | ipapicom数据库    [B] | bigdatacloud数据库 [C] | ch
 IPV4:
 安全得分:
 声誉(越高越好): 0 [2] 
-信任得分(越高越好): 64 [8] 
-VPN得分(越低越好): 0 [8] 
+信任得分(越高越好): 93 [8]
+VPN得分(越低越好): 13 [8] 
 代理得分(越低越好): 8 [8] 
 社区投票-无害: 0 [2] 
 社区投票-恶意: 0 [2] 
-威胁得分(越低越好): 100 [8] 
-欺诈得分(越低越好): 6 [1] 0 [E]
-滥用得分(越低越好): 0 [3] 
-ASN滥用得分(越低越好): 0.0002 (Very Low) [A] 
-公司滥用得分(越低越好): 0.0005 (Very Low) [A] 
+威胁得分(越低越好): 1 [8] 
+欺诈得分(越低越好): 0 [1 E] 
+ASN滥用得分(越低越好): 0 (Very Low) [A] 
+ASN滥用得分(越低越好): 0 (Very Low) [A] 
+公司滥用得分(越低越好): 0 (Very Low) [A] 
 威胁级别: low [9] 
 黑名单记录统计:(有多少黑名单网站有记录):
-无害记录数: 0 [2]  恶意记录数: 0 [2] 可疑记录数: 0 [2]  无记录数: 94 [2]  
+无害记录数: 0 [2]  恶意记录数: 0 [2]  可疑记录数: 0 [2]  无记录数: 94 [2]  
 安全信息:
-使用类型: business [8] consumer [9] unknown [C] isp [0 7 A] FixedLineISP [3]
-公司类型: isp [0 7 A] 
-是否云提供商: No [7 D]
-是否数据中心: No [0 1 5 6 8 A C] 
-是否移动设备: Yes [5 A E] No [C]
+使用类型: corporate [9] unknown [C] business [A] hosting [0 7]
+公司类型: business [A] hosting [0 7]
+是否云提供商: Yes [7 D] 
+是否数据中心: Yes [0 1 A] No [5 6 8 C]
+是否移动设备: No [5 A C] Yes [E]
 是否代理: No [0 1 4 5 6 7 8 9 A C D E] 
-是否VPN: No [0 1 6 7 A C D E] 
-是否Tor: No [0 1 3 6 7 8 A C D E] 
+是否VPN: No [0 1 6 7 A C D E]
+是否TorExit: No [1 7 D] 
 是否Tor出口: No [1 7 D] 
 是否网络爬虫: No [9 A E] 
 是否匿名: No [1 6 7 8 D] 
@@ -218,22 +215,22 @@ ASN滥用得分(越低越好): 0.0002 (Very Low) [A]
 是否中继: No [0 7 8 C D] 
 是否Bogon: No [7 8 A C D] 
 是否机器人: No [E] 
-DNS-黑名单: 313(Total_Check) 0(Clean) 7(Blacklisted) 11(Other) 
+DNS-黑名单: 313(Total_Check) 0(Clean) 0(Blacklisted) 0(Other) 
 IPV6:
 安全得分:
-欺诈得分(越低越好): 6 [1] 
-滥用得分(越低越好): 0 [3]
-ASN滥用得分(越低越好): 0.0002 (Very Low) [A] 
-公司滥用得分(越低越好): 0.0005 (Very Low) [A] 
+欺诈得分(越低越好): 0 [1]
+ASN滥用得分(越低越好): 0 (Very Low) [A] 
+ASN滥用得分(越低越好): 0 (Very Low) [A] 
+公司滥用得分(越低越好): 0 (Very Low) [A] 
 安全信息:
-使用类型: FixedLineISP [3] isp [A]
-公司类型: isp [A] 
-是否云提供商: No [D] 
-是否数据中心: No [1 A] 
-是否移动设备: Yes [A] 
-是否代理: No [1 A D]
-是否VPN: No [1 A D] 
-是否TorExit: No [1 D] 
+使用类型: business [A] 
+公司类型: business [A] 
+是否云提供商: Yes [D] 
+是否数据中心: Yes [1 A] 
+是否移动设备: No [A] 
+是否代理: No [1 A D] 
+是否VPN: No [1 A D]
+是否Tor: No [1 A D] 
 是否Tor出口: No [1 D] 
 是否网络爬虫: No [A] 
 是否匿名: No [1 D] 
@@ -273,7 +270,7 @@ Namecrane ✔     ✔     ✔     ✘     ✔     ✘
 XYAMail   ✘     ✘     ✘     ✘     ✘     ✘    
 ZohoMail  ✘     ✔     ✘     ✘     ✘     ✘    
 Inbox_eu  ✔     ✔     ✔     ✘     ✘     ✘    
-Free_fr   ✘     ✘     ✔     ✘     ✔     ✘    
+Free_fr   ✘     ✔     ✔     ✘     ✔     ✘    
 ```
 
 ### 三网回程
@@ -281,52 +278,69 @@ Free_fr   ✘     ✘     ✔     ✘     ✔     ✘
 使用综合测试脚本：oneclickvirt/backtrace
 
 ```backtrace
+北京电信v4 219.141.140.10           联通4837   [普通线路] 
+北京联通v4 202.106.195.68           联通4837   [普通线路] 
+北京移动v4 221.179.155.161          移动CMI    [普通线路] 
+上海电信v4 202.96.209.133           联通4837   [普通线路] 
 上海联通v4 210.22.97.1              联通4837   [普通线路] 
-广州电信v4 58.60.188.222            电信163    [普通线路] 
+上海移动v4 211.136.112.200          移动CMI    [普通线路] 
+广州电信v4 58.60.188.222            联通4837   [普通线路] 
 广州联通v4 210.21.196.6             联通4837   [普通线路] 
-成都电信v4 61.139.2.69              电信163    [普通线路] 
+广州移动v4 120.196.165.24           移动CMI    [普通线路] 
+成都电信v4 61.139.2.69              联通4837   [普通线路] 电信163    [普通线路] 
 成都联通v4 119.6.6.6                联通4837   [普通线路] 
+成都移动v4 211.137.96.205           移动CMI    [普通线路] 
+北京电信v6 2400:89c0:1053:3::69     电信163    [普通线路] 
+北京联通v6 2400:89c0:1013:3::54     联通4837   [普通线路] 
+北京移动v6 2409:8c00:8421:1303::55  移动CMI    [普通线路] 移动CMIN2  [精品线路] 
+上海电信v6 240e:e1:aa00:4000::24    电信163    [普通线路] 
+上海联通v6 2408:80f1:21:5003::a     联通4837   [普通线路] 
+上海移动v6 2409:8c1e:75b0:3003::26  移动CMI    [普通线路] 移动CMIN2  [精品线路] 
+广州电信v6 240e:97c:2f:3000::44     电信163    [普通线路] 
+广州联通v6 2408:8756:f50:1001::c    联通4837   [普通线路] 
+广州移动v6 2409:8c54:871:1001::12   移动CMIN2  [精品线路] 移动CMI    [普通线路] 
 ```
 
 ### 大陆三网PING测试
 
 ```ping
-电信上海           7 | 电信扬州          10 | 电信江苏          17 | 
-电信武汉          19 | 电信天津          19 | 电信浙江          20 | 
-电信湖北          20 | 电信长沙          23 | 电信山东          24 | 
-电信福建          25 | 电信河南          25 | 电信南京          25 | 
-电信河北          26 | 电信广东          26 | 电信苏州          26 | 
-电信Suzhou5G      27 | 电信湖南          27 | 电信Zhenjiang5G   27 | 
-电信陕西          28 | 电信山西          30 | 电信重庆          30 | 
-电信内蒙古        31 | 电信北京          34 | 电信贵州          36 | 
-电信四川          37 | 电信青海          39 | 电信广西壮族      39 | 
-电信海南          40 | 电信辽宁          41 | 电信甘肃          41 | 
-电信宁夏          42 | 电信黑龙江        42 | 电信云南          43 | 
-电信江西          46 | 电信吉林          58 | 电信安徽          60 | 
-电信新疆          69 | 电信西藏          71 | 
-移动上海           3 | 移动浙江           9 | 移动杭州5G         9 | 
-移动杭州           9 | 移动江苏          12 | 移动江西          14 | 
-移动山东          16 | 移动福州          17 | 移动Fujian        18 | 
-移动安徽          18 | 移动天津          19 | 移动福建          20 | 
-移动湖北          23 | 移动湖南          23 | 移动陕西          27 | 
-移动北京          28 | 移动河北          29 | 移动重庆          31 | 
-移动山西          33 | 移动内蒙古        34 | 移动宁夏          35 | 
-移动成都          37 | 移动四川          37 | 移动贵州          38 | 
-移动甘肃          38 | 移动辽宁          38 | 移动黑龙江        39 | 
-移动青海          40 | 移动吉林          41 | 移动海南          42 | 
-移动广西壮族      42 | 移动云南          53 | 移动新疆          65 | 
-移动西藏          76 | 
-联通浙江          11 | 联通江西          13 | 联通上海5G        13 | 
-联通上海          15 | 联通江苏          25 | 联通湖北          25 | 
-联通河南          26 | 联通湖南          26 | 联通安徽          27 | 
-联通福建          30 | 联通山东          34 | 联通广东          34 | 
-联通天津          34 | 联通陕西          34 | 联通太原市        34 | 
-联通福州          35 | 联通河北          37 | 联通海南          38 | 
-联通贵州          40 | 联通重庆          40 | 联通四川          40 | 
-联通内蒙古        40 | 联通甘肃          41 | 联通宁夏          46 | 
-联通黑龙江        47 | 联通云南          48 | 联通辽宁          48 | 
-联通北京          49 | 联通山西          49 | 联通吉林          52 | 
-联通广西壮族      52 | 联通青海          56 | 联通西藏          61 | 
+电信海南          50 | 电信湖南          54 | 电信湖北          57 | 
+电信武汉          57 | 电信扬州          64 | 电信上海          66 | 
+电信杭州          66 | 电信江西          67 | 电信贵州          68 | 
+电信长沙          68 | 电信浙江          70 | 电信江苏          70 | 
+电信福建          71 | 电信广东          71 | 电信宁波          73 | 
+电信天津          74 | 电信广西壮族      75 | 电信云南          75 | 
+电信安徽          75 | 电信重庆          77 | 电信甘肃          77 | 
+电信苏州          77 | 电信Suzhou5G      78 | 电信四川          78 | 
+电信北京          78 | 电信河南          79 | 电信青海          79 | 
+电信山西          80 | 电信Zhenjiang5G   80 | 电信陕西          81 | 
+电信南京          81 | 电信内蒙古        84 | 电信河北          84 | 
+电信山东          86 | 电信宁夏          88 | 电信辽宁          93 | 
+电信黑龙江       100 | 电信西藏         101 | 电信吉林         103 | 
+电信新疆         112 | 
+移动海南          54 | 移动江西          57 | 移动福建          59 | 
+移动广西壮族      61 | 移动湖南          63 | 移动浙江          63 | 
+移动杭州5G        64 | 移动杭州          64 | 移动上海          64 | 
+移动贵州          64 | 移动Fujian        65 | 移动安徽          65 | 
+移动福州          65 | 移动云南          65 | 移动成都          70 | 
+移动江苏          71 | 移动北京          72 | 移动四川          72 | 
+移动重庆          74 | 移动湖北          76 | 移动天津          76 | 
+移动陕西          76 | 移动内蒙古        79 | 移动辽宁          85 | 
+移动甘肃          86 | 移动河北          90 | 移动山西          92 | 
+移动吉林          92 | 移动青海          93 | 移动黑龙江        98 | 
+移动宁夏          99 | 移动西藏         108 | 移动新疆         119 | 
+联通广西壮族      50 | 联通广东          53 | 联通福州          54 | 
+联通湖南          55 | 联通海南          56 | 联通贵州          56 | 
+联通福建          59 | 联通湖北          61 | 联通云南          62 | 
+联通江西          63 | 联通浙江          65 | 联通江苏          67 | 
+联通上海          68 | 联通四川          69 | 联通上海5G        69 | 
+联通重庆          70 | 联通河南          70 | 联通陕西          71 | 
+联通安徽          71 | 联通甘肃          72 | 联通太原市        76 | 
+联通山西          76 | 联通山东          76 | 联通天津          77 | 
+联通宁夏          77 | 联通青海          77 | 联通河北          78 | 
+联通内蒙古        79 | 联通黑龙江        85 | 联通辽宁          85 | 
+联通吉林          86 | 联通西藏          92 | 联通新疆          98 | 
+联通北京         103 | 
 ```
 
 ### 回程路由
@@ -335,52 +349,59 @@ Free_fr   ✘     ✘     ✔     ✘     ✔     ✘
 
 ```ecsroute
 广州电信 - ICMP v4 - traceroute to 58.60.188.222, 30 hops max, 52 byte packets
-
-
-0.56 ms      AS24400    [APNIC-AP]         中国, 上海市, sh.10086.cn  移动
-5.47 ms      *                             
+0.25 ms      AS209372                      俄罗斯, 库尔斯克州, 法捷日, WSTelecom
+0.31 ms      *                             
+1.13 ms      *                             
+31.12 ms     *                             台湾
+31.12 ms     *                             台湾
+31.19 ms     *                             
+32.36 ms     AS4134     [CHINANET-FJ]      中国, 香港, www.chinatelecom.com.cn 
+*
+32.35 ms     AS10099    [CUG-BACKBONE]     中国, 香港, chinaunicomglobal.com  联通
+35.88 ms     AS10099                       中国, 香港, chinaunicomglobal.com 
+41.28 ms     AS4837     [CU169-BACKBONE]   中国, 广东, 广州, chinaunicom.cn  联通
 *
 *
 *
 *
+74.58 ms     AS4837     [CU169-BACKBONE]   中国, 北京, chinaunicom.cn  联通
+75.48 ms     AS4134     [CHINANET-BB]      中国, 北京, www.chinatelecom.com.cn  电信
 *
+75.59 ms     AS4134     [CHINANET-GD]      中国, 广东, 广州, www.chinatelecom.com.cn 
 *
-*
-82.99 ms     AS4134     [CHINANET-BB]      中国, 广东, 广州, www.chinatelecom.com.cn  电信
-*
-*
-30.14 ms     AS4134                        中国, 广东, 深圳, www.chinatelecom.com.cn  电信
-
-
+70.58 ms     AS4134                        中国, 广东, 深圳, www.chinatelecom.com.cn  电信
 广州联通 - ICMP v4 - traceroute to 210.21.196.6, 30 hops max, 52 byte packets
-
-0.65 ms      AS24400    [APNIC-AP]         中国, 上海市, sh.10086.cn  移动
+0.20 ms      AS209372                      俄罗斯, 库尔斯克州, 法捷日, WSTelecom
+0.39 ms      *                             
+0.90 ms      *                             
+31.24 ms     *                             台湾
+31.27 ms     *                             台湾
+31.20 ms     *          [CUG-ASIA]         中国, 香港
 *
+32.55 ms     AS10099    [CUG-BACKBONE]     中国, 广东, 广州, chinaunicomglobal.com  联通
+35.99 ms     AS10099                       中国, 香港, chinaunicomglobal.com 
+35.96 ms     AS4837     [CU169-BACKBONE]   中国, 广东, 广州, chinaunicom.cn 
+37.43 ms     AS4837     [CU169-BACKBONE]   中国, 广东, 广州, chinaunicom.cn  联通
 *
-*
-53.12 ms     AS24400    [CMNET]            中国, 上海, sh.10086.cn  移动
-*
-*
-32.36 ms     AS9808     [CMNET]            中国, 广东, 广州, chinamobileltd.com  移动
-*
-*
-38.94 ms     AS17816    [UNICOM-GD]        中国, 广东, 深圳, chinaunicom.cn  联通
-246.40 ms    AS17623    [APNIC-AP]         中国, 广东, 深圳, chinaunicom.cn  联通
-41.20 ms     AS17623                       中国, 广东, 深圳, chinaunicom.cn  联通
-
-
+41.11 ms     AS17816    [APNIC-AP]         中国, 广东, 深圳, chinaunicom.cn  联通
+44.65 ms     AS17623    [APNIC-AP]         中国, 广东, 深圳, chinaunicom.cn  联通
+42.40 ms     AS17623                       中国, 广东, 深圳, chinaunicom.cn  联通
 广州移动 - ICMP v4 - traceroute to 120.196.165.24, 30 hops max, 52 byte packets
-
-0.48 ms      AS24400    [APNIC-AP]         中国, 上海市, sh.10086.cn  移动
+0.24 ms      AS209372                      俄罗斯, 库尔斯克州, 法捷日, WSTelecom
+0.36 ms      *                             
+1.11 ms      *                             
+30.93 ms     *                             台湾
+31.24 ms     *                             台湾
+31.68 ms     AS58453    [CMI-INT]          中国, 香港, cmi.chinamobile.com 
 *
-*
-*
-*
-*
-*
-27.47 ms     AS9808     [CMNET]            中国, 北京, chinamobileltd.com  移动
-*
-28.10 ms     AS56040    [APNIC-AP]         中国, 广东, 深圳, gd.10086.cn  移动
+140.51 ms    AS58453    [CMI-INT]          中国, 香港, cmi.chinamobile.com  移动
+40.17 ms     AS58453    [CMI-INT]          中国, 广东, 广州, cmi.chinamobile.com  移动
+40.82 ms     AS9808     [CMNET]            中国, 广东, 广州, chinamobileltd.com  移动
+38.55 ms     AS9808     [CMNET]            中国, 广东, 广州, chinamobileltd.com  移动
+90.52 ms     AS9808     [CMNET]            中国, 广东, 广州, chinamobileltd.com  移动
+38.57 ms     AS9808     [CMNET]            中国, 广东, 广州, chinamobileltd.com  移动
+43.46 ms     AS9808     [CMNET]            中国, 广东, 广州, chinamobileltd.com  移动
+40.70 ms     AS56040    [APNIC-AP]         中国, 广东, 深圳, gd.10086.cn  移动
 ```
 
 ### 流媒体解锁
@@ -388,35 +409,35 @@ Free_fr   ✘     ✘     ✔     ✘     ✔     ✘
 使用综合测试脚本：oneclickvirt/UnlockTests
 
 ```unlocktests
-Apple                     YES (Region: CHN) [Native]
-BingSearch                YES (Only cn.bing.com) (Region: CN)
-Claude                    YES [Native]
-Dazn                      NO (UNKNOWN_REASON)
-Disney+                   NO (Can not get assertion)
-Gemini                    NO (Network Err)
-GoogleSearch              NO (Network Err)
-Google Play Store         NO (Network Err)
-IQiYi                     YES (Region: CN) [Via DNS]
-Instagram Licensed Audio  NO (Network Err)
+Apple                     YES (Region: RUS)
+BingSearch                YES (Region: RU)
+Claude                    YES
+Dazn                      Banned
+Disney+                   NO (forbidden-location)
+Gemini                    NO
+GoogleSearch              YES
+Google Play Store         YES (Region: SG)
+IQiYi                     YES (Region: RU)
+Instagram Licensed Audio  YES
 KOCOWA                    NO
-MetaAI                    NO (Network Err)
+MetaAI                    NO (AbraGeoBlocked)
 Netflix                   Banned
 Netflix CDN               NO (IP Banned By Netflix)
-OneTrust                  YES (Region: CN) [Via DNS]
-ChatGPT                   NO
-Paramount+                YES [Native]
-Amazon Prime Video        NO (Region: CN)
-Reddit                    NO (Network Err)
+OneTrust                  YES (Region: SG)
+ChatGPT                   YES (Region: SG)
+Paramount+                YES
+Amazon Prime Video        YES (Region: RU)
+Reddit                    NO
 SonyLiv                   Banned
-Sora                      Banned (VPN Blocked)
-Spotify Registration      NO
-Steam Store               YES (Community Unavailable) (Region: CN)
-TVBAnywhere+              NO
-TikTok                    NO (Network Err)
-Viu.com                   YES [Native]
-Wikipedia Editability     NO (Network Err)
-YouTube Region            NO (Network Err)
-YouTube CDN               NO (Network Err)
+Sora                      YES (Region: SG)
+Spotify Registration      YES (Region: SG)
+Steam Store               YES (Community Available) (Region: SG)
+TVBAnywhere+              YES (Region: SG)
+TikTok                    YES (Region: RU)
+Viu.com                   YES
+Wikipedia Editability     YES
+YouTube Region            YES (Region: SG)
+YouTube CDN               SIN
 ```
 
 ### 流媒体解锁
@@ -424,10 +445,7 @@ YouTube CDN               NO (Network Err)
 使用综合测试脚本：lmc999/RegionRestrictionCheck
 
 ```regionrestrictioncheck
-$ bash <(curl -L -s check.unlock.media)
-
-
- ** 测试时间: Thu Apr 24 14:27:35 UTC 2025
+ ** 测试时间: Thu Apr 24 21:40:01 UTC 2025
  ** 版本: 1.0.0
 
 
@@ -438,7 +456,7 @@ $ bash <(curl -L -s check.unlock.media)
 
 ============[ Multination ]============
  Dazn:					Failed (Error: )
- Disney+:				No
+ Disney+:				No (IP Banned By Disney+ 1)
  Netflix:				Failed (Network Connection)
  YouTube Premium:			Yes (Region: SG)
  Amazon Prime Video:			No (Service Not Available)
