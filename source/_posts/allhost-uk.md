@@ -106,7 +106,7 @@ Looking Glass: http://lon-lg.as207108.net/
 ### 支付方式
 
 - Credit/Debit Card
-- PayPal,
+- PayPal
 - Bank Transfer
 - AliPay
 - GooglePay

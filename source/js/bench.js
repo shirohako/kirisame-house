@@ -63,6 +63,21 @@ Prism.languages.tiktok = {
     }
 };
 
+Prism.languages.unlocktests = {
+    // 🔴 Failed
+    'failed': {
+        pattern: /(  )(Banned|NO).*/,
+        greedy: true,
+        alias: 'region-no'
+    },
+    // 🟢 Yes
+    'yes': {
+        pattern: /(  )(?!.*(Banned|NO)).*/,
+        greedy: true,
+        alias: 'region-yes'
+    }
+};
+
 Prism.languages.regionrestrictioncheck = {
     // 🔵 "**" 开头 → 蓝色
     'section-header': {
